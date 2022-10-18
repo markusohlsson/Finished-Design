@@ -191,9 +191,10 @@ position:absolute;
     align-items: center;
     justify-content: right;
     background-color: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: v.$colorwhite;
-    height: 6%;
+    height: 5%;
     width: 100%;
     text-align: right;
     a {
@@ -302,10 +303,11 @@ position:absolute;
       display: flex;
       justify-content: center;
       margin: 0;
-      padding: 0.5em 0;
+      padding: 5px;
       width: 100%;
       color: white;
       background-color: rgba(255, 255, 255, 0.1);
+      z-index: 1;
     }
    
   }
